@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background: url("./stonks.png") repeat;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label, input, button, p{
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+p{
+    display: none;
+}
